@@ -8,26 +8,37 @@
     <title>Document</title>
 </head>
 <body>
-<<<<<<< HEAD
     <h1 id="title">Survey Form</h1>
     <p id="description">Please fill out the following information:</p>
     <form id="survey-form">
-        <label id="name-lable">Name:</label>
-        <input id="name" type="text" placeholder="Enter your name"><br><br>
-        <label id="email-lable">Email:</label>
-        <input id="email" type="email" placeholder="Enter your email" required><br><br>
-        <label id="number-lable">Number:</label>
-        <input id="number" type="number" placeholder="Enter your number" min="0" max="9"required><br><br>
+        <label id="name-label">Name:</label>
+        <input id="name" type="name" placeholder="Enter your name" required>
+        <br><br>
+        <label id="email-label">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <br><br>
+        <label id="number-label">Number:</label>
+        <input id="number" type="number" placeholder="Enter your number" min="0" max="15"required>
+        <br><br>
         <select id="dropdown">
             <option value=""></option>
             <option value="Option 1">Option 1</option>
             <option value="Option 2">Option 2</option>
-
         </select>
+        <label>Choose one:</label>
+        <input type="radio" name="choice" value="Option 1">Option 1
+        <input type="radio" name="choice" value="Option 2">Option 2
+        <br><br>
+        <label>Check all that apply:</label>
+        <input type="checkbox"  value="Option 1">Option 1
+        <input type="checkbox"  value="Option 2">Option 2
+        <br><br>
+        <label>Additional comments:</label>
+        <textarea placeholder="Enter additional comments"></textarea>
+        <br><br>
+        <button id="submit">Submit</button>
+
 
     </form>
-=======
-    <h1>Hello World</h1>
->>>>>>> c48f1f76905f67f486d6cc5ee9ba93f7adc602e2
 </body>
 </html>
